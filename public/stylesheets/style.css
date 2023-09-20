@@ -49,17 +49,24 @@ input, select {
 }
 
 .card.premium{
-  border: 4px solid #d7ac57;
+  border: 5px solid #d7ac57;
   color: #d7ac57;
-  background-color: black;
+  background-color: gray;
 }
 .card.standard{
-  border: 4px solid #999;
+  border: 5px solid #999;
   color: #999;
   background-color: #343434;
 }
 .card.bronze{
-  border: 4px solid #714740;
+  border: 5px solid #714740;
   color: #714740;
   background-color: #c27a5b;
+}
+h3 {
+  font-family: "MS Gothic";
+  color: black;
+}
+p.label{
+  color: black;
 }

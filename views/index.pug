@@ -4,10 +4,10 @@ block content
   h1 Create Your Card Here
   form(method="POST" action="/card")
     label(for="firstName") First:
-    input(type="text" name="firstName" id="firstName")
+    input(type="text" name="firstName" id="firstName" value="Alejandro")
 
     label(for="lastName") Last:
-    input(type="text" name="firstName" id="lastName")
+    input(type="text" name="firstName" id="lastName" value="Amezuca")
 
     label(for="type") Type
     select(name="type" id="type")
@@ -16,16 +16,16 @@ block content
       option(value = "Premium") Premium
 
     label(for="dateOfBirth") DOB
-    input(type="date" name="dateOfBirth" id="dateOfBirth")
+    input(type="date" name="dateOfBirth" id="dateOfBirth" value="")
 
     label(for="addressLine1") Address Line 1:
-    input(type="text" name="addressLine1" id="addressLine1")
+    input(type="text" name="addressLine1" id="addressLine1" value="E Franklin Ave")
 
     label(for="addressLine2") Address Line 2:
-    input(type="text" name="addressLine2" id="addressLine2")
+    input(type="text" name="addressLine2" id="addressLine2" value="E Franklin Ave")
 
     label(for="city") City:
-    input(type="text" name="city" id="city")
+    input(type="text" name="city" id="city" value="Fresno")
 
     label(for="state") State:
     select(name="state" id="state")
@@ -34,6 +34,9 @@ block content
       option(value = "WA") WA
 
     label(for="zip") Zip Code:
-    input(type="text" name="zip" id="zip")
+    input(type="text" name="zip" id="zip" value="11111")
+
+    label(for="joinDate") Join Date:
+    input(type="date" name="joinDate" id="joinDate" value="1/1/11")
 
     button(type="submit" action="post") Create My Card
